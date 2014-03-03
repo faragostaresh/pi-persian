@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pi-comment\n"
+"POT-Creation-Date: 2014-02-10 19:55+0800\n"
+"PO-Revision-Date: 2014-02-26 13:29+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _a;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\code\\pi\\usr\\module\\comment\n"
+
+#: c:\code\pi\usr\module\comment/config/block.php:13
+msgid "Recent comments"
+msgstr "جدیدترین نظرات"
+
+#: c:\code\pi\usr\module\comment/config/block.php:14
+msgid "Recent active comment posts."
+msgstr "آخرین نظرات فعال"
+
+#: c:\code\pi\usr\module\comment/config/block.php:20
+msgid "Post count"
+msgstr "تعداد ارسال ها"
+
+#: c:\code\pi\usr\module\comment/config/block.php:21
+msgid "Number of posts to display."
+msgstr "تعداد ارسال ها برای نمایش"
+
+#: c:\code\pi\usr\module\comment/config/block.php:28
+#: c:\code\pi\usr\module\comment/config/block.php:53
+msgid "Module"
+msgstr "ماژول"
+
+#: c:\code\pi\usr\module\comment/config/block.php:29
+msgid "Select module for articles"
+msgstr "انتخاب ماژول برای مطالب"
+
+#: c:\code\pi\usr\module\comment/config/block.php:38
+#: c:\code\pi\usr\module\comment/config/nav.php:20
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:62
+msgid "Commented articles"
+msgstr "مطالب دارای نظر"
+
+#: c:\code\pi\usr\module\comment/config/block.php:39
+msgid "Articles being commented."
+msgstr "مقالات شامل نظر"
+
+#: c:\code\pi\usr\module\comment/config/block.php:45
+msgid "Article count"
+msgstr "تعداد مطالب"
+
+#: c:\code\pi\usr\module\comment/config/block.php:46
+msgid "Number of articles to display."
+msgstr "تعداد مطالب برای نمایش"
+
+#: c:\code\pi\usr\module\comment/config/block.php:54
+msgid "Select module for articles."
+msgstr "انتخاب ماژول برای مطالب"
+
+#: c:\code\pi\usr\module\comment/config/block.php:60
+msgid "Sort order"
+msgstr "مرتب سازی بر اساس"
+
+#: c:\code\pi\usr\module\comment/config/block.php:61
+msgid "Criteria to select articles."
+msgstr "معیار برای انتخاب نظرات"
+
+#: c:\code\pi\usr\module\comment/config/block.php:66
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:90
+msgid "Most commented"
+msgstr "بیشترین نظر"
+
+#: c:\code\pi\usr\module\comment/config/block.php:67
+msgid "Last commented"
+msgstr "آخرین نظر"
+
+#: c:\code\pi\usr\module\comment/config/block.php:68
+msgid "Last published"
+msgstr "آخرین نظرات منتشر شده"
+
+#: c:\code\pi\usr\module\comment/config/block.php:79
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:26
+msgid "Top posters"
+msgstr "برترین ارسال کنندگان"
+
+#: c:\code\pi\usr\module\comment/config/block.php:80
+msgid "Users with most posts"
+msgstr "کاربران با بیشترین ارسال"
+
+#: c:\code\pi\usr\module\comment/config/block.php:86
+msgid "User count"
+msgstr "تعداد کاربران"
+
+#: c:\code\pi\usr\module\comment/config/block.php:87
+msgid "Number of users to display."
+msgstr "تعداد کاربران برای نمایش"
+
+#: c:\code\pi\usr\module\comment/config/block.php:94
+msgid "Excluded user ids"
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/config/block.php:95
+msgid "Users to exclude, separated by \",\"."
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/config/block.php:101
+msgid "Excluded roles"
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/config/block.php:102
+msgid "Roles to exclude."
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/config/comment.php:18
+msgid "Article comments"
+msgstr "نظرات مطلب"
+
+#: c:\code\pi\usr\module\comment/config/comment.php:31
+msgid "Custom comments"
+msgstr "نظرات شخصی سازی شده"
+
+#: c:\code\pi\usr\module\comment/config/config.php:12
+msgid "Leading page comment limit"
+msgstr "تعداد نظرات در صفحه پیشرو"
+
+#: c:\code\pi\usr\module\comment/config/config.php:13
+msgid "Number of comments on leading page."
+msgstr "تعداد نظرات در صفحه پیشرو در زیر مطلب"
+
+#: c:\code\pi\usr\module\comment/config/config.php:19
+msgid "List page comment limit"
+msgstr "محدیدت نظرات در صفحه فهرست نظر"
+
+#: c:\code\pi\usr\module\comment/config/config.php:20
+msgid "Number of comments on list page."
+msgstr "تعداد نظرات در صفحه فهرست"
+
+#: c:\code\pi\usr\module\comment/config/config.php:26
+msgid "Display operation"
+msgstr "عملکرد غیر فعال"
+
+#: c:\code\pi\usr\module\comment/config/config.php:27
+msgid "Level of operations on post list pages."
+msgstr "سطح عملکرد در صفحات فهرست ارسال ها"
+
+#: c:\code\pi\usr\module\comment/config/config.php:33
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:58
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:42
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:28
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:34
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:35
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: c:\code\pi\usr\module\comment/config/config.php:34
+msgid "For members"
+msgstr "برای کاربران"
+
+#: c:\code\pi\usr\module\comment/config/config.php:35
+msgid "For authors"
+msgstr "برای فرستنده"
+
+#: c:\code\pi\usr\module\comment/config/config.php:36
+msgid "For administrators"
+msgstr "برای مدیران"
+
+#: c:\code\pi\usr\module\comment/config/config.php:43
+msgid "Auto approve submission"
+msgstr "تایید خودکار نظرات"
+
+#: c:\code\pi\usr\module\comment/config/module.php:17
+msgid "Comment"
+msgstr "نظر"
+
+#: c:\code\pi\usr\module\comment/config/module.php:18
+msgid "Comment management and services."
+msgstr "مدیریت و سرویس نظرات"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:14
+#: c:\code\pi\usr\module\comment/config/nav.php:61
+msgid "All comments"
+msgstr "همه نظرات"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:26
+msgid "My comments"
+msgstr "نظرات من"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:35
+msgid "My received"
+msgstr "دریافت های من"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:44
+msgid "My articles"
+msgstr "مطالب من"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:55
+msgid "Portal"
+msgstr "پورتال"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:71
+#: c:\code\pi\usr\module\comment/config/nav.php:80
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:95
+msgid "Active posts"
+msgstr "ارسال های فعال"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:89
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:104
+msgid "Inactive posts"
+msgstr "ارسال های غیر فعال"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:100
+msgid "Types"
+msgstr "انواع"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:106
+msgid "By module"
+msgstr "براساس ماژول"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:112
+msgid "By user"
+msgstr "براساس کاربر"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:118
+msgid "By article"
+msgstr "براساس مطلب"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:128
+msgid "Article with comments"
+msgstr "مطلب شامل نظرات"
+
+#: c:\code\pi\usr\module\comment/config/nav.php:137
+msgid "Article with active comments"
+msgstr "مطلب با نظر فعال"
+
+#: c:\code\pi\usr\module\comment/config/user.php:20
+msgid "Comment posts by me"
+msgstr "نظرات اراسل شده توسط من"
+
+#: c:\code\pi\usr\module\comment/config/user.php:26
+msgid "Comment posts on my articles"
+msgstr "نظرات ارسال شده برای مطلب من"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:23
+#, php-format
+msgid "Comment portal for %s"
+msgstr "پورتال نظرات برای %s"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:26
+msgid "Build comment data for demo articles"
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:33
+msgid "Demo article with comments"
+msgstr ""
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:39
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:85
+msgid "All comment posts"
+msgstr "همه نظرات"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:46
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:89
+msgid "All active comment posts"
+msgstr "همه نظرات فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:54
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:87
+msgid "All inactive comment posts"
+msgstr "همه نظرات غیر فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:69
+msgid "Comment posts by user"
+msgstr "نظرات با کاربر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:76
+msgid "Comment posts by module"
+msgstr "نظرات با ماژول"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:87
+msgid "Total posts"
+msgstr "مجموع ارسال ها"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/IndexController.php:277
+#, php-format
+msgid "Demo comment %d."
+msgstr "نظر نمایشی  %d"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:128
+msgid "Comments by username or id"
+msgstr "نظرات با نام کاربری یا آی دی"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:167
+msgid "Comment posts of user"
+msgstr "نظرات ارسال شده توسط کاربر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:200
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:377
+msgid "All Posts"
+msgstr "همه ارسال ها"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:208
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:386
+msgid "Active Posts"
+msgstr "نظرات فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:217
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:396
+msgid "Inactive Posts"
+msgstr "نظرات غیر فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:239
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:22
+msgid "Comment types"
+msgstr "انواع نظر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:334
+#, php-format
+msgid "Comment posts of Module %s with type %s"
+msgstr "نظرات ارسال شده در ماژول %s با نوع %s"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:340
+#, php-format
+msgid "Comment posts of Module %s"
+msgstr "نظرات اراسل شده در ماژول %s"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:448
+msgid "Guest"
+msgstr "مهمان"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:487
+msgid "All commented articles"
+msgstr "همه مطالب دارای نظر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:489
+msgid "All active commented articles"
+msgstr "همه مطالب با نظر فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/ListController.php:561
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:224
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:102
+msgid "Operation succeeded."
+msgstr "با موفقیت انجام شد"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:44
+msgid "Edit"
+msgstr "ویرایش"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:51
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:32
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:38
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:39
+msgid "Delete"
+msgstr "حذف"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:58
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:42
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:23
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:29
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:30
+msgid "Enable"
+msgstr "فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:67
+msgid "Comment post"
+msgstr "ارسال نظر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:91
+msgid "Comment post edit"
+msgstr "ویرایش نظر ارسال شده"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:175
+msgid "Comment post saved successfully."
+msgstr "نظر ارسال شده با موفقیت ذخیره شد"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:178
+msgid "Comment post not saved."
+msgstr "نظر ارسال شده ذخیره نشد"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:182
+msgid "Invalid data, please check and re-submit."
+msgstr "اطلاعات اشتباه، لطفا بررسی کنید و دوباره بفرستید"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:186
+msgid "Invalid submission."
+msgstr "ارسال های اشتباه"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/PostController.php:224
+msgid "Operation failed"
+msgstr "عملکرد موفق نبود"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:34
+msgid "Active"
+msgstr "فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:34
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:92
+msgid "Type was not found."
+msgstr "نوع یافت نشد"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:96
+msgid "Invalid operation."
+msgstr "عملکرد غیر معتبر"
+
+#: c:\code\pi\usr\module\comment/src/Controller/Admin/TypeController.php:105
+msgid "Operation failed."
+msgstr "عملکرد موفق نبود"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:5
+msgid "Comment stats"
+msgstr "وضعیت نظر"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:10
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:53
+#: c:\code\pi\usr\module\comment/template/admin/comment-module-select.phtml:3
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:6
+msgid "Title"
+msgstr "عنوان"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:11
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:54
+msgid "Amounts"
+msgstr "مقدار"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:30
+msgid "Submitters"
+msgstr "ارسال کنندگان"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:31
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:95
+msgid "Comments"
+msgstr "نظرات"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:50
+msgid "Active comment posts by module"
+msgstr "نظرات فعال بر اساس ماژول"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:77
+msgid "Links"
+msgstr "لینک ها"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-index.phtml:94
+msgid "Article title"
+msgstr "عنوان مطلب"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:93
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:99
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:100
+msgid "Pending"
+msgstr "در انتظار تایید"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:107
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:113
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:114
+msgid "No comments available yet."
+msgstr "هنوز هیچ نظری در دسترس نیست"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:187
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:193
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:194
+msgid "Are you sure delete these comments?"
+msgstr "آیا اطمینان دارید که میخواهید این نظرات را حذف کنید؟"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-list.phtml:233
+#: c:\code\pi\usr\module\comment/template/admin/comment-module.phtml:239
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:240
+msgid "Are you sure delete this article?"
+msgstr "آیا اطمینان دارید که میخواهید این مطلب را حذف کنید؟"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-module-select.phtml:4
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:8
+msgid "Action"
+msgstr "عملکرد"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-module-select.phtml:11
+#: c:\code\pi\usr\module\comment/template/admin/comment-module-select.phtml:20
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:14
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:30
+msgid "View comments"
+msgstr "نمایش نظرات"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:7
+msgid "Enable type"
+msgstr "انواع فعال"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:23
+msgid "No"
+msgstr "خیر"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-type.phtml:26
+msgid "Yes"
+msgstr "بله"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-user-select.phtml:2
+msgid "Filter comments by a specific user."
+msgstr "فیلتر کردن نظرات بر اساس کاربر خاص"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-user-select.phtml:5
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:18
+msgid "Type user id or identity"
+msgstr "آی دی یا نام کاربری را وارد کنید"
+
+#: c:\code\pi\usr\module\comment/template/admin/comment-user-select.phtml:6
+#: c:\code\pi\usr\module\comment/template/admin/comment-user.phtml:19
+msgid "Submit"
+msgstr "ارسال"
+
+#, fuzzy
+#~ msgid "Categories"
+#~ msgstr "All Categories"
+
+#, fuzzy
+#~ msgid "Comment categories"
+#~ msgstr "All Categories"
+
+#, fuzzy
+#~ msgid "All"
+#~ msgstr "All Categories"
