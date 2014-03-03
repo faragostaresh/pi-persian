@@ -2,36 +2,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pi-setup\n"
 "POT-Creation-Date: 2014-02-20 20:00+0800\n"
-"PO-Revision-Date: 2014-02-20 20:00+0800\n"
-"Last-Translator: Taiwen Jiang <taiwenjiang@tsinghua.org.cn>\n"
+"PO-Revision-Date: 2014-03-03 18:42+0330\n"
+"Last-Translator: \n"
 "Language-Team: Pi Engine\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _s\n"
 "X-Poedit-Basepath: .\n"
+"Language: fa\n"
 "X-Poedit-SearchPath-0: c:\\Code\\pi\\\\www\\setup\n"
 
 #: c:\Code\pi\\www\setup/include/config.php:15
 msgid "Web server"
-msgstr ""
+msgstr "وب سرور"
 
 #: c:\Code\pi\\www\setup/include/config.php:16
 msgid "PHP"
-msgstr ""
+msgstr "نسخه PHP"
 
 #: c:\Code\pi\\www\setup/include/config.php:17
 msgid "Persist options"
-msgstr ""
+msgstr "گزینه های ضروری"
 
 #: c:\Code\pi\\www\setup/include/config.php:18
 msgid "PDO drivers"
-msgstr ""
+msgstr "درایور های PDO"
 
 #: c:\Code\pi\\www\setup/include/config.php:24
 msgid "APC"
-msgstr ""
+msgstr "APC"
 
 #: c:\Code\pi\\www\setup/include/config.php:25
 msgid ""
@@ -126,141 +127,141 @@ msgid ""
 msgstr ""
 
 #: c:\Code\pi\\www\setup/include/page.php:13
-#, fuzzy
 msgid "Presettings"
-msgstr "Presettings data"
+msgstr "اولیه"
 
 #: c:\Code\pi\\www\setup/include/page.php:14
 msgid "Presettings and server configuration detection"
-msgstr ""
+msgstr "تنظیمات اولیه و تشخیص تنظیمات سرور"
 
 #: c:\Code\pi\\www\setup/include/page.php:17
 msgid "Basic"
-msgstr ""
+msgstr "پایه"
 
 #: c:\Code\pi\\www\setup/include/page.php:18
-#, fuzzy
 msgid "Basic settings for website"
-msgstr "Presettings data"
+msgstr "تنظیمات پایه وب سایت"
 
 #: c:\Code\pi\\www\setup/include/page.php:21
 msgid "Database"
-msgstr ""
+msgstr "پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/include/page.php:22
 msgid "Database settings"
-msgstr ""
+msgstr "تنظیمات پایگاه داد ها"
 
 #: c:\Code\pi\\www\setup/include/page.php:25
 msgid "Administrator"
-msgstr ""
+msgstr "مدیریت"
 
 #: c:\Code\pi\\www\setup/include/page.php:26
 msgid "System and administrator account creation"
-msgstr ""
+msgstr "ایجاد حساب کاربری سیستم و مدیریت"
 
 #: c:\Code\pi\\www\setup/include/page.php:29
 msgid "Finish"
-msgstr ""
+msgstr "پایان"
 
 #: c:\Code\pi\\www\setup/include/page.php:30
 msgid "Finishing installation process"
-msgstr ""
+msgstr "پایان روند نصب"
 
 #: c:\Code\pi\\www\setup/src/Wizard.php:335
 msgid "Pi Engine Setup Wizard"
-msgstr ""
+msgstr "جادوی نصب پای انجین"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:31
 msgid "Database connection is failed."
-msgstr ""
+msgstr "خطا در اتصال به پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:42
 msgid "PiAdmin"
-msgstr ""
+msgstr "مدیر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:76
 msgid "System module uninstallation is failed. Please continue to try again."
 msgstr ""
+"خارج از نصب کردن ماژول سیستم موفقیت آمیز نبود، برای امتحان مجدد ادامه دهید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:107
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:112
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:122
 msgid "Information is required."
-msgstr ""
+msgstr "این اطلاعات ضروری است"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:114
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:172
 msgid "Invalid Email."
-msgstr ""
+msgstr "ایمیل اشتباه"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:124
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:175
 msgid "The two passwords do not match"
-msgstr ""
+msgstr "دو واژه رمز وارد شده یکی نیست"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:140
 msgid "System module installation is failed. Please continue to try again."
-msgstr ""
+msgstr "نصب ماژول سیستم موفقیت آمیز نبود. برای امتحان مجدد ادامه دهید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:160
 msgid "Username is required."
-msgstr ""
+msgstr "نام کاربری ضروری است."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:163
 msgid "Name is required."
-msgstr ""
+msgstr "نام ضروری است."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:166
 msgid "Email is required."
-msgstr ""
+msgstr "ایمیل ضروری است."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:169
 msgid "Password is required."
-msgstr ""
+msgstr "واژه رمز ضروری است."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:313
 msgid "Deprecated tables exist in the database. Please continue to re-install."
 msgstr ""
+"جدول های مورد نیاز ، در پایگاه داده ها موجود است.برای نصب مجدد ادامه دهید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:330
 msgid "Admin email"
-msgstr ""
+msgstr "ایمیل مدیر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:331
 msgid "Admin username"
-msgstr ""
+msgstr "نام کاربری مدیر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:332
 msgid "Admin name"
-msgstr ""
+msgstr "نام مدیر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:333
 msgid "Admin password"
-msgstr ""
+msgstr "واژه رمز مدیر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:334
 msgid "Confirm password"
-msgstr ""
+msgstr "تایید واژه رمز"
 
 #: c:\Code\pi\\www\setup/src/Controller/Admin.php:350
 msgid "Administrator account"
-msgstr ""
+msgstr "حساب کاربری مدیر وب سایت"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:160
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:264
 msgid "Configuration file write error"
-msgstr ""
+msgstr "خطا در هنگام نوشتن بر روی فایل های پیکربندی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:163
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:269
 #, php-format
 msgid "The configuration file \"%s\" is not written correctly."
-msgstr ""
+msgstr "فایل پیکربندی \"%s\" هم اکنون قابل نوشتن نیست."
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:185
 msgid "Server hostname"
-msgstr ""
+msgstr "نام میزبان بر روی سرور"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:186
 msgid ""
@@ -268,104 +269,114 @@ msgid ""
 "server. If you are unsure, \"localhost\" works in most cases, or "
 "\"127.0.0.1\""
 msgstr ""
+"نام میزبان ( و پورت بت جدا کننده  \":\") یا سوکت یونیکس به سرور پایگاه داده "
+"ها. اگر از \"localhost\" استفاده کنید در بیشتر سرور ها کار میکند."
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:189
 msgid "User name"
-msgstr ""
+msgstr "نام کاربری"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:190
 msgid ""
 "Name of the user account that will be used to connect to the database server"
-msgstr ""
+msgstr "نام حساب کاربری که برای اتصال به پایگاه داده های سرور استفاده می شود."
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:193
 msgid "Password"
-msgstr ""
+msgstr "واژه رمز"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:194
 msgid "Password of your database user account"
-msgstr ""
+msgstr "واژه رمز مورد استفاده برای اتصال به پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:197
 msgid "Database name"
-msgstr ""
+msgstr "نام پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:198
 msgid ""
 "The name of database on the host. The database must be already available."
 msgstr ""
+"نام پایگاه داده های بر روی سرور میزبان، پیاگاه داده ها باید قبلا ساخته شده "
+"باشد."
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:201
 msgid "Table prefix"
-msgstr ""
+msgstr "پیشوند نام پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:202
 msgid ""
 "This prefix will be added to all new tables created to avoid name conflicts "
 "in the database. If you are unsure, just keep the default."
 msgstr ""
+"این پیشوند اضافه می شود به به ابتدای نام تمام جدول هایی که از این زمان در "
+"پایگاه داده ها ساخته می شوند. اگر در مورد آن اطمینان ندارید تنظیمات پیش فرض "
+"را تغییر ندهید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:237
 msgid "Database setup"
-msgstr ""
+msgstr "نصب پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Database.php:238
 msgid "Settings for database"
-msgstr ""
+msgstr "تنظیمات برای پایگاه داده ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:146
 #, php-format
 msgid "%s is NOT writable."
-msgstr ""
+msgstr "%s قابل نوشتن نیست"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:279
 msgid "Configuration file copy error"
-msgstr ""
+msgstr "خطا در کپی کردن فایل های تنظیمات"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:281
 msgid ""
 "The configuration files are not copied correctly or not readable, please "
 "create and/or set read permissions for the files manually."
 msgstr ""
+"فایل های تنظیمات به طور صحیح کپی نشده اند یا قابل خواندن نیستند، لطفا به "
+"صورت دستی آنها را بسازید و / یا دسترسی خواندن را برای فایل ها اعمال کنید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:302
 msgid "Power your web and mobile applications."
-msgstr ""
+msgstr "نیرو دهنده به وب سایت و ابزار های موبایل"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:311
 msgid "Identifier"
-msgstr ""
+msgstr "شناسه"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:312
 msgid ""
 "Unique identifier to distinguish this website. If there are multiple sites "
 "installed, make sure the identifier is unique."
 msgstr ""
+"شناسه یکتا برای شناسایی این وب سایت، اگر میخواهید چند سایت را به صورت مولتی "
+"سایت نصب کنید ، مطمئن شوید این شناسه برای آنها یکی نیست."
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:315
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:316
 msgid "Name for the website."
-msgstr ""
+msgstr "نام وب سایت"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:319
 msgid "Slogan"
-msgstr ""
+msgstr "شعار"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:320
 msgid "Website slogan."
-msgstr ""
+msgstr "شعار وب سایت"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:341
-#, fuzzy
 msgid "Primary settings"
-msgstr "Presettings data"
+msgstr "تنظیمات اولیه"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:345
 msgid "Primary settings for your website."
-msgstr ""
+msgstr "تنظیمات اولیه وب سایت"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:450
 msgid "File system"
@@ -377,222 +388,231 @@ msgstr ""
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:456
 msgid "Persistent data container"
-msgstr ""
+msgstr "ظرف داده های پایدار"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:460
 msgid "Choose the proper backend container for persistent data"
-msgstr ""
+msgstr "ظرف داده های پایدار پس زمینه را انتخاب کنید"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:502
 msgid "Documents root physical path"
-msgstr ""
+msgstr "مسیر فیزیکی ریشه وب سایت"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:503
 msgid ""
 "Physical path to the documents (served) directory without trailing slash; "
 "PHP executable."
-msgstr ""
+msgstr "مسیر فیزیکی ریشه وب سایت بدون اسلش یا پسوند انتهایی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:506
 msgid "Website location (URL)"
-msgstr ""
+msgstr "محل وب سایت (URL)"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:507
 msgid "Main URL that will be used to access your Pi Engine"
-msgstr ""
+msgstr "مسیر اصلی که برای دسترسی به وب سایت پای انجین شما استفاده می شود"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:510
 msgid "Upload directory"
-msgstr ""
+msgstr "مسیر پوشه آپلود"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:511
 msgid ""
 "Physical path to upload directory without trailing slash. A relative path "
 "will be allocated in PI root directory; PHP disabled."
-msgstr ""
+msgstr "مسیر فیزیکی به پوشه آپلود بدون اسلش در انتها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:514
 msgid "URL of upload root"
-msgstr ""
+msgstr "آدرس پوشه آپلود"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:515
 msgid ""
 "URL that will be used to access upload directory. PI root URL will be "
 "prepended if relative URL is used."
 msgstr ""
+"آدرسی که برای دسترسی به پوشه آپلود استفاده می شود. اگر مسیر نسبی استفاده شود "
+"آدرس اصلی پای انحین به ابتدای آن اضافه می شود."
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:518
 msgid "Static file directory"
-msgstr ""
+msgstr "مسیر فایل های استاتیک"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:519
 msgid ""
 "Physical path to static file directory without trailing slash; PHP disabled."
-msgstr ""
+msgstr "مسیر فیزیکی به پوشه فایل های استاتیک بدون اسلش در انتها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:522
 msgid "URL of static file root directory"
-msgstr ""
+msgstr "آدرس فایل های استاتیک"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:523
 msgid ""
 "URL that will be used to access static files. Upload URL will be used if "
 "static directory is not set explicitly."
 msgstr ""
+"آدرسی که برای دسترسی به پوشه فایل های استاتیک استفاده می شود. اگر مسیر نسبی "
+"استفاده شود آدرس اصلی پای انحین به ابتدای آن اضافه می شود."
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:526
 msgid "Library directory"
-msgstr ""
+msgstr "مسیر کتابخانه ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:527
 msgid ""
 "Physical path to library directory without trailing slash. Locate the folder "
 "out of web directory to make it secure; PHP executable"
 msgstr ""
+"مسیر فیزیکی به پوشه کتابخانه ها بدون اسلش در انتها. این شاخه را برای امنیت "
+"بیشتر خارج ار پوشه وب قرار دهید"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:530
 msgid "Data file directory"
-msgstr ""
+msgstr "مسیر فایل های داده"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:531
 msgid ""
 "Physical path to the data files (writable) directory WITHOUT trailing slash. "
 "Locate the folder out of web directory to make it secure; PHP executable"
 msgstr ""
+"مسیر فیزیکی برای فایل های داده ( قابل نوشتن ) بدون اسلش در انتها. این شاخه "
+"را برای امنیت بیشتر خارج ار پوشه وب قرار دهید"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:534
 msgid "Root directory for user applications"
-msgstr ""
+msgstr "مسیر ریشه برای ابزار های کاربر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:535
 msgid ""
 "Physical path to user contributed directory WITHOUT trailing slash.. Locate "
 "the folder out of web directory to make it secure; PHP executable"
 msgstr ""
+"مسیر فیزیکی به پوشه ابزار های مورد استفاده کاربر بدون اسلش در انتها. این "
+"شاخه را برای امنیت بیشتر خارج ار پوشه وب قرار دهید"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:578
-#, fuzzy
 msgid "Basic settings"
-msgstr "Presettings data"
+msgstr "تنظیمات عمومی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:583
 msgid "Settings required by system"
-msgstr ""
+msgstr "تنظیمات ضروری برای سیستم"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:603
-#, fuzzy
 msgid "Advanced settings"
-msgstr "Presettings data"
+msgstr "تنظیمات پیشرفته"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:608
 msgid ""
 "Settings that can help improve security, deployment flexibility, etc. If you "
 "are unsure about it, leave as it is."
 msgstr ""
+"تنظیماتی که میتوانند به امنیت بیشتر ، انعطاف پذیری و ... کمک کنند. اگر در "
+"مورد آن مطمئن نیستیذ، تغییری اعمال نکنید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:616
-#, fuzzy
 msgid "Path settings"
-msgstr "Presettings data"
+msgstr "تنظیمات مسیردهی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Directive.php:620
 msgid "Path and URL settings"
-msgstr ""
+msgstr "تنظیمات مسیر و آدرس"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:116
 msgid "Congratulations!"
-msgstr ""
+msgstr "تبریک میگوییم"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:117
 msgid "The system is set up successfully."
-msgstr ""
+msgstr "وب سایت با موفقیت نصب گردید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:118
 msgid "Click to visit your website!"
-msgstr ""
+msgstr "برای مشاهده وب سایت اینجا کلیک کنید!"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:119
 msgid "Security advisory"
-msgstr ""
+msgstr "مشاوره امنیتی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:120
 msgid ""
 "For security considerations please make sure the following operations are "
 "done:"
-msgstr ""
+msgstr "به دلایل امنیتی لطفا اطمینان حاصل کنید موارد زیر اجرا شده باشد :"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:121
 msgid ""
 "Remove the installation folder <strong>{www}/setup/</strong> from your "
 "server manually."
-msgstr ""
+msgstr "حذف پوشه نصب <strong>{www}/setup/</strong> از روی سرور به صورت دستی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:122
 msgid "Set configuration directories and files to readonly: "
-msgstr ""
+msgstr "تنظیم مسیر ها و فایل های پیکربندی زیر به صورت فقط قابل خواندن :"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:124
 msgid "Support"
-msgstr ""
+msgstr "پشتیبانی"
 
 #: c:\Code\pi\\www\setup/src/Controller/Finish.php:125
 msgid ""
 "Visit <a href=\"http://pialog.org/\" rel=\"external\">Pi Engine Development "
 "Site</a> in case you need any help."
 msgstr ""
+"اگر به هر نوع کمکی نیاز دارید از <a href=\"http://pialog.org/\" rel="
+"\"external\">وب سایت توسعه پای انجین</a> بازدید کنید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:79
-#, fuzzy
 msgid "Language Selection"
-msgstr "语言选择"
+msgstr "انتخاب زبان"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:80
 msgid "Choose the language for the installation and website."
-msgstr ""
+msgstr "زبان مورد نظر خود را برای مراحل نصب و استفاده در وب سایت انتخاب کنید."
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:116
 msgid "Sever setting detection"
-msgstr ""
+msgstr "تشخیص تنظیمات سرور"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:132
 msgid "Validate server settings and extensions"
-msgstr ""
+msgstr "تایید تنظیمات سرور و افزونه ها"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:137
 msgid "System requirements"
-msgstr ""
+msgstr "ابزار های ضروری سرور"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:139
 msgid "Server settings and system extensions required by Pi Engine"
-msgstr ""
+msgstr "تنظیمات سرور و افزونه های سیستمی مورد نیاز برای نصب پای انجین"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:146
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:179
 msgid "Invalid"
-msgstr ""
+msgstr "اشتباه"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:150
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:183
 msgid "Not available"
-msgstr ""
+msgstr "نا صحیح"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:155
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:188
 msgid "Valid"
-msgstr ""
+msgstr "صحیح"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:170
 msgid "System extension recommendations"
-msgstr ""
+msgstr "افزونه های ضروری سیستم"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:172
 msgid "Extensions recommended for better functionality or performance"
-msgstr ""
+msgstr "افزونه های ضروری برای عملکرد یا کارایی بهتر"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:301
-#, fuzzy
 msgid "Unknown"
-msgstr "未知"
+msgstr "ناشناس"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:319
 msgid ""
@@ -619,7 +639,7 @@ msgstr ""
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:366
 msgid "Version 5.3.0 or higher is required."
-msgstr ""
+msgstr "نسخه ۵.۳.۰ یا بالاتر ضروری است"
 
 #: c:\Code\pi\\www\setup/src/Controller/Presetting.php:392
 msgid ""
@@ -637,13 +657,13 @@ msgstr ""
 
 #: c:\Code\pi\\www\setup/include/template.phtml:65
 msgid "Previous"
-msgstr ""
+msgstr "قبلی"
 
 #: c:\Code\pi\\www\setup/include/template.phtml:70
 msgid "Reload"
-msgstr ""
+msgstr "بارگذاری مجدد"
 
 #: c:\Code\pi\\www\setup/include/template.phtml:79
 #: c:\Code\pi\\www\setup/include/template.phtml:84
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
