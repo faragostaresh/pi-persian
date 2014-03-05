@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-widget\n"
-"POT-Creation-Date: 2014-02-28 11:05+0330\n"
-"PO-Revision-Date: 2014-02-28 11:06+0330\n"
+"POT-Creation-Date: 2014-03-05 15:47+0330\n"
+"PO-Revision-Date: 2014-03-05 15:48+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -62,21 +62,26 @@ msgstr "درج لینک برای آخرین صفحه"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:41
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:53
-msgid "Block frame height"
-msgstr "ارتفاع قاب بلاک"
+msgid "Image width"
+msgstr "عرض تصویر"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:46
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:58
+msgid "Image height"
+msgstr "ارتفاع تصویر"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:51
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:63
 msgid "Time interval (ms)"
 msgstr "زمان توقف ( میلی ثانیه )"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:52
-#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:64
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:57
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:69
 msgid "Mouse event"
 msgstr "رویداد موس"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:53
-#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:65
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Api/Block.php:58
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Installer/Action/Update.php:70
 msgid "Event to pause cycle"
 msgstr "رویداد برای توقف چرخه"
 
@@ -100,7 +105,7 @@ msgstr "توضیحات"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockTabForm.php:99
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockCarouselForm.php:109
-#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockStaticForm.php:134
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockStaticForm.php:135
 msgid "Submit"
 msgstr "ارسال"
 
@@ -111,6 +116,14 @@ msgstr "الگو"
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockStaticForm.php:102
 msgid "Content"
 msgstr "متن"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/BlockStaticForm.php:109
+msgid ""
+"Tags supported: `%sitename%` - site name; `%siteurl%` - site root URL; `"
+"%slogan%` - site slogan"
+msgstr ""
+"تگ های پشتیبانی شده : `%sitename%` - نام سایت; `%siteurl%` - پیوند اصلی "
+"سایت; `%slogan%` - شعار سایت"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/widget/src/Form/Element/CarouselTemplate.php:20
 msgid "Bootstrap slide"

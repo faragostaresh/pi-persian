@@ -1,163 +1,185 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-message\n"
-"POT-Creation-Date: 2013-11-10 13:57+0800\n"
-"PO-Revision-Date: 2014-03-03 16:56+0330\n"
+"POT-Creation-Date: 2014-03-05 16:01+0330\n"
+"PO-Revision-Date: 2014-03-05 16:01+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
-"Language: fa\n"
-"X-Poedit-SearchPath-0: C:\\wamp\\www\\master\\usr\\module\\message\n"
+"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-develop/usr/module/message\n"
 
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:181
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/NotifyController.php:41
-#, php-format
-msgid "Private message(%s) unread"
-msgstr "پایام خصوصی (%s) خوانده نشده"
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:185
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/NotifyController.php:45
-#, php-format
-msgid "Notification(%s) unread"
-msgstr "آگاهی رسانی (%s) خوانده نشده"
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:206
-msgid "Need login"
-msgstr "برای استفاده وارد شوید"
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:231
-msgid "Username is invalid, please try again."
-msgstr "نام کاربری صحیح نیست ، دوباره امتحان کنید."
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:247
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:373
-msgid "Send failed, please try again."
-msgstr "ارسال موفقیت آمیز نبود ، دوباره امتحان کنید."
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:280
-msgid "User"
-msgstr "کاربر"
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:284
-msgid "not found"
-msgstr "یافت نشد"
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:290
-msgid "Sorry, you can't send message to yourself."
-msgstr "متاسفانه شما نمیتوانید به خودتان پیام بفرستید."
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:302
-msgid "An error occurred, please try again."
-msgstr "یک خطا روی داده است ، لطفا دوباره امتحان کنید."
-
-#: C:\wamp\www\master\usr\module\message/src/Controller/Front/IndexController.php:331
-msgid "Send message"
-msgstr "ارسال پیام"
-
-#: C:\wamp\www\master\usr\module\message/src/Form/ReplyForm.php:66
-#: C:\wamp\www\master\usr\module\message/src/Form/SendForm.php:77
-msgid "Content"
-msgstr "تماس"
-
-#: C:\wamp\www\master\usr\module\message/src/Form/ReplyForm.php:86
-#: C:\wamp\www\master\usr\module\message/src/Form/SendForm.php:91
-msgid "Send"
-msgstr "ارسال"
-
-#: C:\wamp\www\master\usr\module\message/src/Form/SendForm.php:55
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/SendForm.php:55
 msgid "Recipient"
 msgstr "دریافت کننده"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-detail.phtml:11
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:9
-#: C:\wamp\www\master\usr\module\message/template/front/index-send.phtml:8
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:11
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/SendForm.php:77
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/ReplyForm.php:66
+msgid "Content"
+msgstr "تماس"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/SendForm.php:83
+msgid "Message content"
+msgstr "متن پیام"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/SendForm.php:93
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Form/ReplyForm.php:86
+msgid "Send"
+msgstr "ارسال"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:184
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/NotifyController.php:42
+#, php-format
+msgid "Private message(%s unread)"
+msgstr "پایام خصوصی (%s خوانده نشده)"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:188
+#, php-format
+msgid "Notification(%s  unread)"
+msgstr "آگاهی رسانی (%s خوانده نشده)"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:224
+msgid "Username is invalid, please try again."
+msgstr "نام کاربری صحیح نیست ، دوباره امتحان کنید."
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:240
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:368
+msgid "Send failed, please try again."
+msgstr "ارسال موفقیت آمیز نبود ، دوباره امتحان کنید."
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:274
+msgid "User"
+msgstr "کاربر"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:278
+msgid "not found"
+msgstr "یافت نشد"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:284
+msgid "Sorry, you can't send message to yourself."
+msgstr "متاسفانه شما نمیتوانید به خودتان پیام بفرستید."
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:296
+msgid "An error occurred, please try again."
+msgstr "یک خطا روی داده است ، لطفا دوباره امتحان کنید."
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/IndexController.php:325
+msgid "Send message"
+msgstr "ارسال پیام"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/src/Controller/Front/NotifyController.php:46
+#, php-format
+msgid "Notification(%s unread)"
+msgstr "آگاهی رسانی (%s خوانده نشده)"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-detail.phtml:6
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:10
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-archive.phtml:3
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:6
 msgid "Private message"
 msgstr "پیام شخصی"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-detail.phtml:14
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:12
-#: C:\wamp\www\master\usr\module\message/template/front/index-send.phtml:9
-#: C:\wamp\www\master\usr\module\message/template/front/notify-detail.phtml:11
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:14
-msgid "Notification"
-msgstr "آگاهی رسانی"
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-detail.phtml:9
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-detail.phtml:7
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:13
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-archive.phtml:7
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:10
+msgid "Archive"
+msgstr "آرشیو"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-detail.phtml:19
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:17
-#: C:\wamp\www\master\usr\module\message/template/front/index-send.phtml:11
-#: C:\wamp\www\master\usr\module\message/template/front/notify-detail.phtml:14
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:17
-msgid "New message"
-msgstr "پیام جدید"
-
-#: C:\wamp\www\master\usr\module\message/template/front/index-detail.phtml:59
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:46
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:91
-#: C:\wamp\www\master\usr\module\message/template/front/notify-detail.phtml:59
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:44
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:100
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-detail.phtml:57
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-detail.phtml:59
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:47
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:103
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:47
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:96
 msgid "Delete"
 msgstr "حذف"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:59
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:90
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:60
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:99
-msgid "Mark as read"
-msgstr "به عنوان خوانده شده نشان کن"
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-detail.phtml:95
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:46
+msgid "Once you delete this message, it cannot be undone."
+msgstr "شما این پیام را حذف کردید ، این فرایند برگشت پذیر نیست."
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:77
-msgid "<div class=\"alert alert-info message-alert\">No message for you!</div>"
-msgstr ""
-"<div class=\"alert alert-info message-alert\">هیچ پیامی برای شما نیست !</div>"
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-send.phtml:3
+msgid "Return message list page"
+msgstr "بازگشت به صفحه فهرست پیام ها"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:87
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:96
-msgid "Checked all"
-msgstr "All Categories"
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-send.phtml:5
+msgid "Write message"
+msgstr "نوشتن پیام"
 
-#: C:\wamp\www\master\usr\module\message/template/front/index-index.phtml:89
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:98
-msgid "Massive operation"
-msgstr "عملکرد های پیام"
-
-#: C:\wamp\www\master\usr\module\message/template/front/notify-detail.phtml:8
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-detail.phtml:5
 msgid "Messages"
 msgstr "پیام ها"
 
-#: C:\wamp\www\master\usr\module\message/template/front/notify-index.phtml:85
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:63
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:102
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:60
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:95
+msgid "Mark as read"
+msgstr "به عنوان خوانده شده نشان کن"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:88
 msgid ""
 "<div class=\"alert alert-info message-alert\">No notification for you!</div>"
 msgstr ""
 "<div class=\"alert alert-info message-alert\">هیچ آگاهی رسانی برای شما نیست !"
 "</div>"
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:4
-msgid "Delete this message?"
-msgstr "این پیام حذف شود؟"
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:99
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:92
+msgid "Checked all"
+msgstr "All Categories"
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:7
-msgid "Once you delete this message, it cannot be undone."
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/notify-index.phtml:101
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:94
+msgid "Massive operation"
+msgstr "عملکرد های پیام"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:68
+msgid "To"
+msgstr "به"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:68
+msgid "From"
+msgstr "از"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:82
+msgid "<div class=\"alert alert-info message-alert\">No message for you!</div>"
+msgstr ""
+"<div class=\"alert alert-info message-alert\">هیچ پیامی برای شما نیست !</div>"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/message/template/front/index-index.phtml:106
+#, fuzzy
+msgid "Once you delete those message, it cannot be undone."
 msgstr "شما این پیام را حذف کردید ، این فرایند برگشت پذیر نیست."
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:11
-msgid "Delete message"
-msgstr "حذف پیام"
+#~ msgid "Need login"
+#~ msgstr "برای استفاده وارد شوید"
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:20
-msgid "Delete these messages?"
-msgstr "این پیام ها حذف شوند؟"
+#~ msgid "Notification"
+#~ msgstr "آگاهی رسانی"
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:23
-msgid "Once you delete these messages, they cannot be undone."
-msgstr "شما این پیام ها را حذف کردید ، این فرایند برگشت پذیر نیست."
+#~ msgid "New message"
+#~ msgstr "پیام جدید"
 
-#: C:\wamp\www\master\usr\module\message/template/front/_confirm-modal.phtml:27
-msgid "Delete messages"
-msgstr "حذف پیام ها"
+#~ msgid "Delete this message?"
+#~ msgstr "این پیام حذف شود؟"
+
+#~ msgid "Delete message"
+#~ msgstr "حذف پیام"
+
+#~ msgid "Delete these messages?"
+#~ msgstr "این پیام ها حذف شوند؟"
+
+#~ msgid "Once you delete these messages, they cannot be undone."
+#~ msgstr "شما این پیام ها را حذف کردید ، این فرایند برگشت پذیر نیست."
+
+#~ msgid "Delete messages"
+#~ msgstr "حذف پیام ها"

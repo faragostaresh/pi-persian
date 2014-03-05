@@ -1,269 +1,225 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-setup\n"
-"POT-Creation-Date: 2014-02-20 20:00+0800\n"
-"PO-Revision-Date: 2014-03-03 18:42+0330\n"
+"POT-Creation-Date: 2014-03-05 14:38+0330\n"
+"PO-Revision-Date: 2014-03-05 14:38+0330\n"
 "Last-Translator: \n"
 "Language-Team: Pi Engine\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _s\n"
 "X-Poedit-Basepath: .\n"
-"Language: fa\n"
-"X-Poedit-SearchPath-0: c:\\Code\\pi\\\\www\\setup\n"
+"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-develop/www/setup\n"
 
-#: c:\Code\pi\\www\setup/include/config.php:15
-msgid "Web server"
-msgstr "وب سرور"
-
-#: c:\Code\pi\\www\setup/include/config.php:16
-msgid "PHP"
-msgstr "نسخه PHP"
-
-#: c:\Code\pi\\www\setup/include/config.php:17
-msgid "Persist options"
-msgstr "گزینه های ضروری"
-
-#: c:\Code\pi\\www\setup/include/config.php:18
-msgid "PDO drivers"
-msgstr "درایور های PDO"
-
-#: c:\Code\pi\\www\setup/include/config.php:24
-msgid "APC"
-msgstr "APC"
-
-#: c:\Code\pi\\www\setup/include/config.php:25
-msgid ""
-"The Alternative PHP Cache (APC) is highly recommended for high-performance "
-"scenario. Refer to <a href=\"http://www.php.net/manual/en/intro.apc.php\" "
-"target=\"_blank\" title=\"APC introduction\">APC introduction</a> for "
-"details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:28
-msgid "Redis"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:29
-msgid ""
-"The extension is highly recommended for performance scenario and advanced "
-"data structure. Refer to <a href=\"http://redis.io\" target=\"_blank\" title="
-"\"Redis\">Redis page</a> for details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:32
-msgid "Memcached"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:33
-msgid ""
-"Memcached is highly recommended for high-performance yet robust distributed "
-"scenario. However it is not suitable for shared-hosting usage since tag is "
-"not supported. Refer to <a href=\"http://www.php.net/manual/en/intro."
-"memcached.php\" target=\"_blank\" title=\"Memcached introduction\">Memcached "
-"introduction</a> for details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:36
-msgid "Memcache"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:37
-msgid ""
-"Memcache a widely used cache engine. However it is not suitable for shared-"
-"hosting usage since tag is not supported. Refer to <a href=\"http://www.php."
-"net/manual/en/intro.memcache.php\" target=\"_blank\" title=\"Memcache "
-"introduction\">Memcache introduction</a> for details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:40
-msgid "cURL"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:41
-msgid ""
-"The extension allows to connect and communicate to different types of "
-"servers with different types of protocols, check <a href=\"http://www.php."
-"net/manual/en/book.curl.php\" title=\"cURL\" target=\"_blank\">cURL</a> for "
-"details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:44
-msgid "Intl"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:45
-msgid ""
-"Internationalization extension enables collation and date/time/number/"
-"currency formatting, check <a href=\"http://www.php.net/manual/en/book.intl."
-"php\" title=\"Internationalization extension\" target=\"_blank"
-"\">Internationalization extension</a> for details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:48
-msgid "Markdown"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:49
-msgid ""
-"The extension is suggested for text parser, check <a href=\"http://"
-"daringfireball.net/projects/markdown/\" title=\"Markdown project\" target="
-"\"_blank\">Markdown</a> for details and download from <a href=\"http://pecl."
-"php.net/package/markdown\" title=\"PECL project\" target=\"_blank\">PECL "
-"page</a>."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:52
-msgid "Mbstring"
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/config.php:53
-msgid ""
-"The extension is required for multibyte string processing, check <a href="
-"\"http://www.php.net/manual/en/book.mbstring.php\" title=\"Multibyte String"
-"\" target=\"_blank\">Multibyte String</a> for details."
-msgstr ""
-
-#: c:\Code\pi\\www\setup/include/page.php:13
-msgid "Presettings"
-msgstr "اولیه"
-
-#: c:\Code\pi\\www\setup/include/page.php:14
-msgid "Presettings and server configuration detection"
-msgstr "تنظیمات اولیه و تشخیص تنظیمات سرور"
-
-#: c:\Code\pi\\www\setup/include/page.php:17
-msgid "Basic"
-msgstr "پایه"
-
-#: c:\Code\pi\\www\setup/include/page.php:18
-msgid "Basic settings for website"
-msgstr "تنظیمات پایه وب سایت"
-
-#: c:\Code\pi\\www\setup/include/page.php:21
-msgid "Database"
-msgstr "پایگاه داده ها"
-
-#: c:\Code\pi\\www\setup/include/page.php:22
-msgid "Database settings"
-msgstr "تنظیمات پایگاه داد ها"
-
-#: c:\Code\pi\\www\setup/include/page.php:25
-msgid "Administrator"
-msgstr "مدیریت"
-
-#: c:\Code\pi\\www\setup/include/page.php:26
-msgid "System and administrator account creation"
-msgstr "ایجاد حساب کاربری سیستم و مدیریت"
-
-#: c:\Code\pi\\www\setup/include/page.php:29
-msgid "Finish"
-msgstr "پایان"
-
-#: c:\Code\pi\\www\setup/include/page.php:30
-msgid "Finishing installation process"
-msgstr "پایان روند نصب"
-
-#: c:\Code\pi\\www\setup/src/Wizard.php:335
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Wizard.php:340
 msgid "Pi Engine Setup Wizard"
 msgstr "جادوی نصب پای انجین"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:31
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:86
+msgid "Language Selection"
+msgstr "انتخاب زبان"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:87
+msgid "Choose the language for the installation and website."
+msgstr "زبان مورد نظر خود را برای مراحل نصب و استفاده در وب سایت انتخاب کنید."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:123
+msgid "Sever setting detection"
+msgstr "تشخیص تنظیمات سرور"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:139
+msgid "Validate server settings and extensions"
+msgstr "تایید تنظیمات سرور و افزونه ها"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:144
+msgid "System requirements"
+msgstr "ابزار های ضروری سرور"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:146
+msgid "Server settings and system extensions required by Pi Engine"
+msgstr "تنظیمات سرور و افزونه های سیستمی مورد نیاز برای نصب پای انجین"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:153
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:186
+msgid "Invalid"
+msgstr "اشتباه"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:157
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:190
+msgid "Not available"
+msgstr "نا صحیح"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:162
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:195
+msgid "Valid"
+msgstr "صحیح"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:177
+msgid "System extension recommendations"
+msgstr "افزونه های ضروری سیستم"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:179
+msgid "Extensions recommended for better functionality or performance"
+msgstr "افزونه های ضروری برای عملکرد یا کارایی بهتر"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:308
+msgid "Unknown"
+msgstr "ناشناس"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:326
+msgid ""
+"Make sure that configurations have been set up correctly for nginx. Refer to "
+"<a href=\"http://nginx.net\" title=\"nginx\" target=\"_blank\">nginx</a> and "
+"<a href=\"http://dev.xoopsengine.org\" title=\"Pi Engine\" target=\"_blank"
+"\">Pi Engine Dev</a> for instructions."
+msgstr ""
+"Make sure that configurations have been set up correctly for nginx. Refer to "
+"<a href=\"http://nginx.net\" title=\"nginx\" target=\"_blank\">nginx</a> and "
+"<a href=\"http://dev.xoopsengine.org\" title=\"Pi Engine\" target=\"_blank"
+"\">Pi Engine Dev</a> for instructions."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:349
+msgid ""
+"Apache \"mod_rewrite\" module is required, however it is not detected. Check "
+"<a href=\"http://httpd.apache.org/docs/current/mod/mod_rewrite.html\" title="
+"\"mod_rewrite\" target=\"_blank\">mod_rewrite</a> for details."
+msgstr ""
+"Apache \"mod_rewrite\" module is required, however it is not detected. Check "
+"<a href=\"http://httpd.apache.org/docs/current/mod/mod_rewrite.html\" title="
+"\"mod_rewrite\" target=\"_blank\">mod_rewrite</a> for details."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:353
+msgid ""
+"The webserver is currently not supported, please use <a href=\"http://nginx."
+"net\" title=\"nginx\" target=\"_blank\">nginx</a> or <a href=\"http://www."
+"php.net/manual/en/book.apache.php\" target=\"_blank\" title=\"Apache"
+"\">Apache</a>."
+msgstr ""
+"The webserver is currently not supported, please use <a href=\"http://nginx."
+"net\" title=\"nginx\" target=\"_blank\">nginx</a> or <a href=\"http://www."
+"php.net/manual/en/book.apache.php\" target=\"_blank\" title=\"Apache"
+"\">Apache</a>."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:373
+msgid "Version 5.3.0 or higher is required."
+msgstr "نسخه ۵.۳.۰ یا بالاتر ضروری است"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:399
+msgid ""
+"PHP Data Objects (PDO) extension with MySQL driver is required for regular "
+"Pi Engine instances, check <a href=\"http://www.php.net/manual/en/book.pdo."
+"php\" title=\"PDO\" target=\"_blank\">PDO manual</a> for details."
+msgstr ""
+"PHP Data Objects (PDO) extension with MySQL driver is required for regular "
+"Pi Engine instances, check <a href=\"http://www.php.net/manual/en/book.pdo."
+"php\" title=\"PDO\" target=\"_blank\">PDO manual</a> for details."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Presetting.php:428
+#, php-format
+msgid ""
+"There is no recommended persist engine available. One of the following "
+"extensions is recommended: %s"
+msgstr ""
+"There is no recommended persist engine available. One of the following "
+"extensions is recommended: %s"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:31
 msgid "Database connection is failed."
 msgstr "خطا در اتصال به پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:42
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:42
 msgid "PiAdmin"
 msgstr "مدیر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:76
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:76
 msgid "System module uninstallation is failed. Please continue to try again."
 msgstr ""
 "خارج از نصب کردن ماژول سیستم موفقیت آمیز نبود، برای امتحان مجدد ادامه دهید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:107
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:112
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:122
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:107
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:112
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:122
 msgid "Information is required."
 msgstr "این اطلاعات ضروری است"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:114
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:172
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:114
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:172
 msgid "Invalid Email."
 msgstr "ایمیل اشتباه"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:124
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:175
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:124
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:175
 msgid "The two passwords do not match"
 msgstr "دو واژه رمز وارد شده یکی نیست"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:140
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:140
 msgid "System module installation is failed. Please continue to try again."
 msgstr "نصب ماژول سیستم موفقیت آمیز نبود. برای امتحان مجدد ادامه دهید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:160
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:160
 msgid "Username is required."
 msgstr "نام کاربری ضروری است."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:163
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:163
 msgid "Name is required."
 msgstr "نام ضروری است."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:166
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:166
 msgid "Email is required."
 msgstr "ایمیل ضروری است."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:169
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:169
 msgid "Password is required."
 msgstr "واژه رمز ضروری است."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:313
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:313
 msgid "Deprecated tables exist in the database. Please continue to re-install."
 msgstr ""
 "جدول های مورد نیاز ، در پایگاه داده ها موجود است.برای نصب مجدد ادامه دهید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:330
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:330
 msgid "Admin email"
 msgstr "ایمیل مدیر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:331
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:331
 msgid "Admin username"
 msgstr "نام کاربری مدیر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:332
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:332
 msgid "Admin name"
 msgstr "نام مدیر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:333
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:333
 msgid "Admin password"
 msgstr "واژه رمز مدیر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:334
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:334
 msgid "Confirm password"
 msgstr "تایید واژه رمز"
 
-#: c:\Code\pi\\www\setup/src/Controller/Admin.php:350
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Admin.php:350
 msgid "Administrator account"
 msgstr "حساب کاربری مدیر وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:160
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:264
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:160
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:264
 msgid "Configuration file write error"
 msgstr "خطا در هنگام نوشتن بر روی فایل های پیکربندی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:163
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:269
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:163
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:269
 #, php-format
 msgid "The configuration file \"%s\" is not written correctly."
 msgstr "فایل پیکربندی \"%s\" هم اکنون قابل نوشتن نیست."
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:185
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:185
 msgid "Server hostname"
 msgstr "نام میزبان بر روی سرور"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:186
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:186
 msgid ""
 "Hostname (and port, delimited by \":\") or Unix socket of the database "
 "server. If you are unsure, \"localhost\" works in most cases, or "
@@ -272,39 +228,39 @@ msgstr ""
 "نام میزبان ( و پورت بت جدا کننده  \":\") یا سوکت یونیکس به سرور پایگاه داده "
 "ها. اگر از \"localhost\" استفاده کنید در بیشتر سرور ها کار میکند."
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:189
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:189
 msgid "User name"
 msgstr "نام کاربری"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:190
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:190
 msgid ""
 "Name of the user account that will be used to connect to the database server"
 msgstr "نام حساب کاربری که برای اتصال به پایگاه داده های سرور استفاده می شود."
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:193
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:193
 msgid "Password"
 msgstr "واژه رمز"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:194
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:194
 msgid "Password of your database user account"
 msgstr "واژه رمز مورد استفاده برای اتصال به پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:197
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:197
 msgid "Database name"
 msgstr "نام پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:198
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:198
 msgid ""
 "The name of database on the host. The database must be already available."
 msgstr ""
 "نام پایگاه داده های بر روی سرور میزبان، پیاگاه داده ها باید قبلا ساخته شده "
 "باشد."
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:201
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:201
 msgid "Table prefix"
 msgstr "پیشوند نام پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:202
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:202
 msgid ""
 "This prefix will be added to all new tables created to avoid name conflicts "
 "in the database. If you are unsure, just keep the default."
@@ -313,24 +269,24 @@ msgstr ""
 "پایگاه داده ها ساخته می شوند. اگر در مورد آن اطمینان ندارید تنظیمات پیش فرض "
 "را تغییر ندهید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:237
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:237
 msgid "Database setup"
 msgstr "نصب پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Database.php:238
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Database.php:238
 msgid "Settings for database"
 msgstr "تنظیمات برای پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:146
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:146
 #, php-format
 msgid "%s is NOT writable."
 msgstr "%s قابل نوشتن نیست"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:279
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:279
 msgid "Configuration file copy error"
 msgstr "خطا در کپی کردن فایل های تنظیمات"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:281
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:281
 msgid ""
 "The configuration files are not copied correctly or not readable, please "
 "create and/or set read permissions for the files manually."
@@ -338,15 +294,15 @@ msgstr ""
 "فایل های تنظیمات به طور صحیح کپی نشده اند یا قابل خواندن نیستند، لطفا به "
 "صورت دستی آنها را بسازید و / یا دسترسی خواندن را برای فایل ها اعمال کنید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:302
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:302
 msgid "Power your web and mobile applications."
 msgstr "نیرو دهنده به وب سایت و ابزار های موبایل"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:311
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:311
 msgid "Identifier"
 msgstr "شناسه"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:312
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:312
 msgid ""
 "Unique identifier to distinguish this website. If there are multiple sites "
 "installed, make sure the identifier is unique."
@@ -354,79 +310,79 @@ msgstr ""
 "شناسه یکتا برای شناسایی این وب سایت، اگر میخواهید چند سایت را به صورت مولتی "
 "سایت نصب کنید ، مطمئن شوید این شناسه برای آنها یکی نیست."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:315
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:315
 msgid "Name"
 msgstr "نام"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:316
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:316
 msgid "Name for the website."
 msgstr "نام وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:319
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:319
 msgid "Slogan"
 msgstr "شعار"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:320
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:320
 msgid "Website slogan."
 msgstr "شعار وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:341
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:341
 msgid "Primary settings"
 msgstr "تنظیمات اولیه"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:345
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:345
 msgid "Primary settings for your website."
 msgstr "تنظیمات اولیه وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:450
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:450
 msgid "File system"
-msgstr ""
+msgstr "\"\"File system"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:452
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:452
 msgid "Caching storage with files on disks specified in following steps."
-msgstr ""
+msgstr "Caching storage with files on disks specified in following steps."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:456
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:456
 msgid "Persistent data container"
 msgstr "ظرف داده های پایدار"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:460
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:460
 msgid "Choose the proper backend container for persistent data"
 msgstr "ظرف داده های پایدار پس زمینه را انتخاب کنید"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:502
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:502
 msgid "Documents root physical path"
 msgstr "مسیر فیزیکی ریشه وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:503
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:503
 msgid ""
 "Physical path to the documents (served) directory without trailing slash; "
 "PHP executable."
 msgstr "مسیر فیزیکی ریشه وب سایت بدون اسلش یا پسوند انتهایی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:506
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:506
 msgid "Website location (URL)"
 msgstr "محل وب سایت (URL)"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:507
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:507
 msgid "Main URL that will be used to access your Pi Engine"
 msgstr "مسیر اصلی که برای دسترسی به وب سایت پای انجین شما استفاده می شود"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:510
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:510
 msgid "Upload directory"
 msgstr "مسیر پوشه آپلود"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:511
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:511
 msgid ""
 "Physical path to upload directory without trailing slash. A relative path "
 "will be allocated in PI root directory; PHP disabled."
 msgstr "مسیر فیزیکی به پوشه آپلود بدون اسلش در انتها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:514
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:514
 msgid "URL of upload root"
 msgstr "آدرس پوشه آپلود"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:515
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:515
 msgid ""
 "URL that will be used to access upload directory. PI root URL will be "
 "prepended if relative URL is used."
@@ -434,20 +390,20 @@ msgstr ""
 "آدرسی که برای دسترسی به پوشه آپلود استفاده می شود. اگر مسیر نسبی استفاده شود "
 "آدرس اصلی پای انحین به ابتدای آن اضافه می شود."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:518
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:518
 msgid "Static file directory"
 msgstr "مسیر فایل های استاتیک"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:519
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:519
 msgid ""
 "Physical path to static file directory without trailing slash; PHP disabled."
 msgstr "مسیر فیزیکی به پوشه فایل های استاتیک بدون اسلش در انتها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:522
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:522
 msgid "URL of static file root directory"
 msgstr "آدرس فایل های استاتیک"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:523
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:523
 msgid ""
 "URL that will be used to access static files. Upload URL will be used if "
 "static directory is not set explicitly."
@@ -455,11 +411,11 @@ msgstr ""
 "آدرسی که برای دسترسی به پوشه فایل های استاتیک استفاده می شود. اگر مسیر نسبی "
 "استفاده شود آدرس اصلی پای انحین به ابتدای آن اضافه می شود."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:526
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:526
 msgid "Library directory"
 msgstr "مسیر کتابخانه ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:527
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:527
 msgid ""
 "Physical path to library directory without trailing slash. Locate the folder "
 "out of web directory to make it secure; PHP executable"
@@ -467,11 +423,11 @@ msgstr ""
 "مسیر فیزیکی به پوشه کتابخانه ها بدون اسلش در انتها. این شاخه را برای امنیت "
 "بیشتر خارج ار پوشه وب قرار دهید"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:530
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:530
 msgid "Data file directory"
 msgstr "مسیر فایل های داده"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:531
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:531
 msgid ""
 "Physical path to the data files (writable) directory WITHOUT trailing slash. "
 "Locate the folder out of web directory to make it secure; PHP executable"
@@ -479,11 +435,11 @@ msgstr ""
 "مسیر فیزیکی برای فایل های داده ( قابل نوشتن ) بدون اسلش در انتها. این شاخه "
 "را برای امنیت بیشتر خارج ار پوشه وب قرار دهید"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:534
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:534
 msgid "Root directory for user applications"
 msgstr "مسیر ریشه برای ابزار های کاربر"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:535
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:535
 msgid ""
 "Physical path to user contributed directory WITHOUT trailing slash.. Locate "
 "the folder out of web directory to make it secure; PHP executable"
@@ -491,19 +447,19 @@ msgstr ""
 "مسیر فیزیکی به پوشه ابزار های مورد استفاده کاربر بدون اسلش در انتها. این "
 "شاخه را برای امنیت بیشتر خارج ار پوشه وب قرار دهید"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:578
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:578
 msgid "Basic settings"
 msgstr "تنظیمات عمومی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:583
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:583
 msgid "Settings required by system"
 msgstr "تنظیمات ضروری برای سیستم"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:603
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:603
 msgid "Advanced settings"
 msgstr "تنظیمات پیشرفته"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:608
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:608
 msgid ""
 "Settings that can help improve security, deployment flexibility, etc. If you "
 "are unsure about it, leave as it is."
@@ -511,51 +467,51 @@ msgstr ""
 "تنظیماتی که میتوانند به امنیت بیشتر ، انعطاف پذیری و ... کمک کنند. اگر در "
 "مورد آن مطمئن نیستیذ، تغییری اعمال نکنید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:616
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:616
 msgid "Path settings"
 msgstr "تنظیمات مسیردهی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Directive.php:620
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Directive.php:620
 msgid "Path and URL settings"
 msgstr "تنظیمات مسیر و آدرس"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:116
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:116
 msgid "Congratulations!"
 msgstr "تبریک میگوییم"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:117
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:117
 msgid "The system is set up successfully."
 msgstr "وب سایت با موفقیت نصب گردید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:118
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:118
 msgid "Click to visit your website!"
 msgstr "برای مشاهده وب سایت اینجا کلیک کنید!"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:119
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:119
 msgid "Security advisory"
 msgstr "مشاوره امنیتی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:120
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:120
 msgid ""
 "For security considerations please make sure the following operations are "
 "done:"
 msgstr "به دلایل امنیتی لطفا اطمینان حاصل کنید موارد زیر اجرا شده باشد :"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:121
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:121
 msgid ""
 "Remove the installation folder <strong>{www}/setup/</strong> from your "
 "server manually."
 msgstr "حذف پوشه نصب <strong>{www}/setup/</strong> از روی سرور به صورت دستی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:122
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:122
 msgid "Set configuration directories and files to readonly: "
 msgstr "تنظیم مسیر ها و فایل های پیکربندی زیر به صورت فقط قابل خواندن :"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:124
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:124
 msgid "Support"
 msgstr "پشتیبانی"
 
-#: c:\Code\pi\\www\setup/src/Controller/Finish.php:125
+#: /var/www/html/local/pi/pi-develop/www/setup/src/Controller/Finish.php:125
 msgid ""
 "Visit <a href=\"http://pialog.org/\" rel=\"external\">Pi Engine Development "
 "Site</a> in case you need any help."
@@ -563,107 +519,199 @@ msgstr ""
 "اگر به هر نوع کمکی نیاز دارید از <a href=\"http://pialog.org/\" rel="
 "\"external\">وب سایت توسعه پای انجین</a> بازدید کنید."
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:79
-msgid "Language Selection"
-msgstr "انتخاب زبان"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:13
+msgid "Presettings"
+msgstr "اولیه"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:80
-msgid "Choose the language for the installation and website."
-msgstr "زبان مورد نظر خود را برای مراحل نصب و استفاده در وب سایت انتخاب کنید."
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:14
+msgid "Presettings and server configuration detection"
+msgstr "تنظیمات اولیه و تشخیص تنظیمات سرور"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:116
-msgid "Sever setting detection"
-msgstr "تشخیص تنظیمات سرور"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:17
+msgid "Basic"
+msgstr "پایه"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:132
-msgid "Validate server settings and extensions"
-msgstr "تایید تنظیمات سرور و افزونه ها"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:18
+msgid "Basic settings for website"
+msgstr "تنظیمات پایه وب سایت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:137
-msgid "System requirements"
-msgstr "ابزار های ضروری سرور"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:21
+msgid "Database"
+msgstr "پایگاه داده ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:139
-msgid "Server settings and system extensions required by Pi Engine"
-msgstr "تنظیمات سرور و افزونه های سیستمی مورد نیاز برای نصب پای انجین"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:22
+msgid "Database settings"
+msgstr "تنظیمات پایگاه داد ها"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:146
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:179
-msgid "Invalid"
-msgstr "اشتباه"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:25
+msgid "Administrator"
+msgstr "مدیریت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:150
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:183
-msgid "Not available"
-msgstr "نا صحیح"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:26
+msgid "System and administrator account creation"
+msgstr "ایجاد حساب کاربری سیستم و مدیریت"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:155
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:188
-msgid "Valid"
-msgstr "صحیح"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:29
+msgid "Finish"
+msgstr "پایان"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:170
-msgid "System extension recommendations"
-msgstr "افزونه های ضروری سیستم"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/page.php:30
+msgid "Finishing installation process"
+msgstr "پایان روند نصب"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:172
-msgid "Extensions recommended for better functionality or performance"
-msgstr "افزونه های ضروری برای عملکرد یا کارایی بهتر"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:15
+msgid "Web server"
+msgstr "وب سرور"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:301
-msgid "Unknown"
-msgstr "ناشناس"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:16
+msgid "PHP"
+msgstr "نسخه PHP"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:319
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:17
+msgid "Persist options"
+msgstr "گزینه های ضروری"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:18
+msgid "PDO drivers"
+msgstr "درایور های PDO"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:24
+msgid "APC"
+msgstr "APC"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:25
 msgid ""
-"Make sure that configurations have been set up correctly for nginx. Refer to "
-"<a href=\"http://nginx.net\" title=\"nginx\" target=\"_blank\">nginx</a> and "
-"<a href=\"http://dev.xoopsengine.org\" title=\"Pi Engine\" target=\"_blank"
-"\">Pi Engine Dev</a> for instructions."
+"The Alternative PHP Cache (APC) is highly recommended for high-performance "
+"scenario. Refer to <a href=\"http://www.php.net/manual/en/intro.apc.php\" "
+"target=\"_blank\" title=\"APC introduction\">APC introduction</a> for "
+"details."
 msgstr ""
+"The Alternative PHP Cache (APC) is highly recommended for high-performance "
+"scenario. Refer to <a href=\"http://www.php.net/manual/en/intro.apc.php\" "
+"target=\"_blank\" title=\"APC introduction\">APC introduction</a> for "
+"details."
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:342
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:28
+msgid "Redis"
+msgstr "Redis"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:29
 msgid ""
-"Apache \"mod_rewrite\" module is required, however it is not detected. Check "
-"<a href=\"http://httpd.apache.org/docs/current/mod/mod_rewrite.html\" title="
-"\"mod_rewrite\" target=\"_blank\">mod_rewrite</a> for details."
+"The extension is highly recommended for performance scenario and advanced "
+"data structure. Refer to <a href=\"http://redis.io\" target=\"_blank\" title="
+"\"Redis\">Redis page</a> for details."
 msgstr ""
+"The extension is highly recommended for performance scenario and advanced "
+"data structure. Refer to <a href=\"http://redis.io\" target=\"_blank\" title="
+"\"Redis\">Redis page</a> for details."
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:346
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:32
+msgid "Memcached"
+msgstr "Memcached"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:33
 msgid ""
-"The webserver is currently not supported, please use <a href=\"http://nginx."
-"net\" title=\"nginx\" target=\"_blank\">nginx</a> or <a href=\"http://www."
-"php.net/manual/en/book.apache.php\" target=\"_blank\" title=\"Apache"
-"\">Apache</a>."
+"Memcached is highly recommended for high-performance yet robust distributed "
+"scenario. However it is not suitable for shared-hosting usage since tag is "
+"not supported. Refer to <a href=\"http://www.php.net/manual/en/intro."
+"memcached.php\" target=\"_blank\" title=\"Memcached introduction\">Memcached "
+"introduction</a> for details."
 msgstr ""
+"Memcached is highly recommended for high-performance yet robust distributed "
+"scenario. However it is not suitable for shared-hosting usage since tag is "
+"not supported. Refer to <a href=\"http://www.php.net/manual/en/intro."
+"memcached.php\" target=\"_blank\" title=\"Memcached introduction\">Memcached "
+"introduction</a> for details."
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:366
-msgid "Version 5.3.0 or higher is required."
-msgstr "نسخه ۵.۳.۰ یا بالاتر ضروری است"
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:36
+msgid "Memcache"
+msgstr "Memcache"
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:392
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:37
 msgid ""
-"PHP Data Objects (PDO) extension with MySQL driver is required for regular "
-"Pi Engine instances, check <a href=\"http://www.php.net/manual/en/book.pdo."
-"php\" title=\"PDO\" target=\"_blank\">PDO manual</a> for details."
+"Memcache a widely used cache engine. However it is not suitable for shared-"
+"hosting usage since tag is not supported. Refer to <a href=\"http://www.php."
+"net/manual/en/intro.memcache.php\" target=\"_blank\" title=\"Memcache "
+"introduction\">Memcache introduction</a> for details."
 msgstr ""
+"Memcache a widely used cache engine. However it is not suitable for shared-"
+"hosting usage since tag is not supported. Refer to <a href=\"http://www.php."
+"net/manual/en/intro.memcache.php\" target=\"_blank\" title=\"Memcache "
+"introduction\">Memcache introduction</a> for details."
 
-#: c:\Code\pi\\www\setup/src/Controller/Presetting.php:421
-#, php-format
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:40
+msgid "cURL"
+msgstr "cURL"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:41
 msgid ""
-"There is no recommended persist engine available. One of the following "
-"extensions is recommended: %s"
+"The extension allows to connect and communicate to different types of "
+"servers with different types of protocols, check <a href=\"http://www.php."
+"net/manual/en/book.curl.php\" title=\"cURL\" target=\"_blank\">cURL</a> for "
+"details."
 msgstr ""
+"The extension allows to connect and communicate to different types of "
+"servers with different types of protocols, check <a href=\"http://www.php."
+"net/manual/en/book.curl.php\" title=\"cURL\" target=\"_blank\">cURL</a> for "
+"details."
 
-#: c:\Code\pi\\www\setup/include/template.phtml:65
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:44
+msgid "Intl"
+msgstr "Intl"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:45
+msgid ""
+"Internationalization extension enables collation and date/time/number/"
+"currency formatting, check <a href=\"http://www.php.net/manual/en/book.intl."
+"php\" title=\"Internationalization extension\" target=\"_blank"
+"\">Internationalization extension</a> for details."
+msgstr ""
+"Internationalization extension enables collation and date/time/number/"
+"currency formatting, check <a href=\"http://www.php.net/manual/en/book.intl."
+"php\" title=\"Internationalization extension\" target=\"_blank"
+"\">Internationalization extension</a> for details."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:48
+msgid "Markdown"
+msgstr "Markdown"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:49
+msgid ""
+"The extension is suggested for text parser, check <a href=\"http://"
+"daringfireball.net/projects/markdown/\" title=\"Markdown project\" target="
+"\"_blank\">Markdown</a> for details and download from <a href=\"http://pecl."
+"php.net/package/markdown\" title=\"PECL project\" target=\"_blank\">PECL "
+"page</a>."
+msgstr ""
+"The extension is suggested for text parser, check <a href=\"http://"
+"daringfireball.net/projects/markdown/\" title=\"Markdown project\" target="
+"\"_blank\">Markdown</a> for details and download from <a href=\"http://pecl."
+"php.net/package/markdown\" title=\"PECL project\" target=\"_blank\">PECL "
+"page</a>."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:52
+msgid "Mbstring"
+msgstr "Mbstring"
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/config.php:53
+msgid ""
+"The extension is required for multibyte string processing, check <a href="
+"\"http://www.php.net/manual/en/book.mbstring.php\" title=\"Multibyte String"
+"\" target=\"_blank\">Multibyte String</a> for details."
+msgstr ""
+"The extension is required for multibyte string processing, check <a href="
+"\"http://www.php.net/manual/en/book.mbstring.php\" title=\"Multibyte String"
+"\" target=\"_blank\">Multibyte String</a> for details."
+
+#: /var/www/html/local/pi/pi-develop/www/setup/include/template.phtml:65
 msgid "Previous"
 msgstr "قبلی"
 
-#: c:\Code\pi\\www\setup/include/template.phtml:70
+#: /var/www/html/local/pi/pi-develop/www/setup/include/template.phtml:70
 msgid "Reload"
 msgstr "بارگذاری مجدد"
 
-#: c:\Code\pi\\www\setup/include/template.phtml:79
-#: c:\Code\pi\\www\setup/include/template.phtml:84
+#: /var/www/html/local/pi/pi-develop/www/setup/include/template.phtml:79
+#: /var/www/html/local/pi/pi-develop/www/setup/include/template.phtml:84
 msgid "Next"
 msgstr "بعدی"

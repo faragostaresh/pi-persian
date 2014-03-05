@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-page\n"
-"POT-Creation-Date: 2014-02-28 10:04+0330\n"
-"PO-Revision-Date: 2014-02-28 10:27+0330\n"
+"POT-Creation-Date: 2014-03-05 16:03+0330\n"
+"PO-Revision-Date: 2014-03-05 16:03+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -11,14 +11,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _a;_t\n"
-"X-Poedit-Basepath: /var/www/html/local/pi/pi-develop/usr/module/page/\n"
+"X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-develop/usr/module/page/"
-"template\n"
-"X-Poedit-SearchPath-1: /var/www/html/local/pi/pi-develop/usr/module/page/"
-"src\n"
-"X-Poedit-SearchPath-2: /var/www/html/local/pi/pi-develop/usr/module/page/"
-"config\n"
+"X-Poedit-SearchPath-0: /var/www/html/local/pi/pi-develop/usr/module/page\n"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Validator/PageNameDuplicate.php:14
 msgid "Page name already exists."
@@ -33,7 +28,7 @@ msgid "Template file is not available."
 msgstr "فایل تمپلیت انتخابی موجود نیست"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Form/PageForm.php:45
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:8
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:9
 msgid "Page title"
 msgstr "عنوان صفحه"
 
@@ -101,7 +96,7 @@ msgid "Demo for PHTML page"
 msgstr "نسخه نمایشی برای صفحه PHTML"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Installer/Action/Install.php:85
-msgid "Feed"
+msgid "RSS Feed"
 msgstr "خوراک"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Installer/Action/Install.php:92
@@ -109,8 +104,8 @@ msgid "Sitemap"
 msgstr "نقشه سایت"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Installer/Action/Install.php:100
-msgid "Sitemap feed"
-msgstr "خواک نقشه سایت"
+msgid "XML Sitemap"
+msgstr "نقشه سایت XML"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Installer/Action/Install.php:111
 msgid "Pages added."
@@ -144,22 +139,22 @@ msgstr "صفحه جدید"
 msgid "Page edit"
 msgstr "ویرایش صفحه"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/IndexController.php:247
+#: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/IndexController.php:249
 msgid "Page deleted successfully."
 msgstr "صفحه با موفقیت حذف شد"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/IndexController.php:266
+#: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/IndexController.php:270
 msgid "Page updated successfully."
 msgstr "صفحه با موفقیت به روز شد"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/IndexController.php:292
+msgid "Page navigation menu updated successfully."
+msgstr "منو صفحه با موفقیت به روز شد"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/src/Controller/Admin/TemplateController.php:48
 #: /var/www/html/local/pi/pi-develop/usr/module/page/config/nav.php:50
 msgid "Template list"
 msgstr "فهرست الگو ها"
-
-#: /var/www/html/local/pi/pi-develop/usr/module/page/config/page.php:15
-msgid "Homepage"
-msgstr "صفحه اول"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/config/module.php:14
 msgid "Page"
@@ -257,51 +252,50 @@ msgstr "الگوی PHTML"
 msgid "PHTML"
 msgstr "PHTML"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:9
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:10
 msgid "Name"
 msgstr "نام"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:10
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:11
 msgid "Slug"
 msgstr "اسلاگ"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:11
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:12
 msgid "Type"
 msgstr "نوع"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:12
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:13
 msgid "Time published"
 msgstr "زمان انتشار"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:13
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:14
 msgid "Last Update"
 msgstr "آخرین به روز رسانی"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:14
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:15
 #: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/template-list.phtml:11
 msgid "Action"
 msgstr "عملکرد"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:40
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/template-list.phtml:28
-msgid "View"
-msgstr "نمایش"
-
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:41
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:44
 msgid "Edit"
 msgstr "ویرایش"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:42
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:45
 msgid "Delete"
 msgstr "حذف"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:44
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:47
 msgid "Disable"
 msgstr "غیر فعال"
 
-#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:46
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:49
 msgid "Enable"
 msgstr "فعال"
+
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/page-list.phtml:61
+msgid "Add to menu"
+msgstr "درج در منو"
 
 #: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/template-list.phtml:9
 msgid "Time modified"
@@ -311,6 +305,16 @@ msgstr "زمان ویرایش"
 msgid "Filesize"
 msgstr "حجم فایل"
 
+#: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/template-list.phtml:28
+msgid "View"
+msgstr "نمایش"
+
 #: /var/www/html/local/pi/pi-develop/usr/module/page/template/admin/template-list.phtml:29
 msgid "Add to page"
 msgstr "صفحه جدید"
+
+#~ msgid "Sitemap feed"
+#~ msgstr "خواک نقشه سایت"
+
+#~ msgid "Homepage"
+#~ msgstr "صفحه اول"
